@@ -3,9 +3,10 @@ from turtle import title
 from pytube import YouTube
 
 
+#Please Ignore the Commentend lines of codes. 
 
-link=input("Please Enter your Youtube link\n")
-youtube_file= YouTube(link)
+url=input("Please Enter your Youtube Video URL 🔗🔗🔗🔗🙏\n")
+youtube_file= YouTube(url)
 
 print(f'Downloading: {youtube_file.title}' )
 # print(youtube_file.thumbnail_url)

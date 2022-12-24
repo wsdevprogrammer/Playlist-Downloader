@@ -1,9 +1,12 @@
 from pytube import YouTube
 
-link=input("Please Enter your Downlaodable Link\n")
+#Please Ignore the Commentend lines of codes. 
+
+
+url=input("Please Enter your Video Url Link... 🔗🔗\n")
 
 print("Wait for a While your Request is Processing\n")
-youtube_audio = YouTube(link)
+youtube_audio = YouTube(url)
 
 video_fn=youtube_audio.streams.filter(only_audio=True)
 vid = list(enumerate(video_fn))

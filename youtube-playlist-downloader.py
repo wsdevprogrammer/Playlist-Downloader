@@ -1,5 +1,7 @@
 from pytube import Playlist
 
+#Please Ignore the Commentend lines of codes. 
+
 print("Welcome to the epic Youtube Playlist Downloader\n")
 py = Playlist(input("Please Enter your Playlist URL 🔗 here\n"))
 
@@ -16,5 +18,5 @@ for video in py.videos:
     # print("File Path: ", video.streams.download(r'D:\Progamming-Vids'))
     
 #print("File Path: ", v_streams.download(r'F:\SEO_Pro\Python\downloaded-videos-folder'))
-print('Hurray : Sucessfully Downloaded Playlist' )
+print('Hurray : Successfully Downloaded Playlist' )
 
